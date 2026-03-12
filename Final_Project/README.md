@@ -116,7 +116,7 @@ sns.scatterplot(data=df_plot, x='skill_percent', y='median_salary', hue='technol
 ```
 
 #### Results
-![Most optimal skills for Data Analysts](images/optimal_skill.png)
+![Most optimal skills for Data Analysts](images/Optimal_Skill.png)
 
 #### Insights
 
