@@ -18,7 +18,7 @@ for i, job_title in enumerate(job_titles):
 ```
 #### Results
 
-![Visualization of Top Skills](images\Top_Skills_Data_Jobs.png)
+![Visualization of Top Skills](Final_Project\images\Top_Skills_Data_Jobs.png)
 
 #### Insights
 SQL is the Universal Language: Regardless of the specific title, SQL remains a top-two requirement across the board. Its lowest likelihood is still 51% (Data Analyst/Scientist), proving it is the foundational skill for the entire field.
