@@ -18,7 +18,7 @@ for i, job_title in enumerate(job_titles):
 ```
 #### Results
 
-![Visualization of Top Skills](Final_Project\images\Top_Skills_Data_Jobs.png)
+![Visualization of Top Skills](images/Top_Skills_Data_Jobs.png)
 
 #### Insights
 SQL is the Universal Language: Regardless of the specific title, SQL remains a top-two requirement across the board. Its lowest likelihood is still 51% (Data Analyst/Scientist), proving it is the foundational skill for the entire field.
@@ -29,7 +29,7 @@ The Data Analyst "Entry" Stack: Data Analyst positions are unique in their relia
 
 Infrastructure for Engineers: Data Engineers have a distinct technical profile. They are the only group where Cloud (AWS at 43%, Azure at 32%) and Big Data (Spark at 32%) tools break into the top five, highlighting the shift from data analysis to data architecture.
 
-## 2. How are In-Demand Skills Trending for Data Analysts?
+## 2. How are in-demand skills trending for Data Analysts?
 
 ### Visualize Data
 ```python
@@ -41,7 +41,7 @@ plt.show()
 ```
 #### Results
 
-![Trend of Top Skills](images\Skill_Trend.png)
+![Trend of Top Skills](images/Skill_Trend.png)
 
 #### Insights
 SQL is the undisputed king: Throughout the entire year, SQL remained the most requested skill, appearing in approximately 50% to 54% of job postings.
@@ -68,7 +68,7 @@ ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'${int(x/1000)}K'
 ```
 
 #### Results
-![Salary Distribution of Data Jobs in the US](images\Salary_distribution.png)
+![Salary Distribution of Data Jobs in the US](images/Salary_distribution.png)
 
 #### Insights
 The "Senior" Premium
@@ -91,7 +91,7 @@ sns.barplot(data=df_da_top_pay, x='median', y=df_da_top_pay.index, ax=ax[0], hue
 sns.barplot(data=df_da_skills, x='median', y=df_da_skills.index, ax=ax[1], hue='median', palette='light:b')
 ```
 #### Results
-![Highest Paid and Most Demanded Skills in Data Analysts](images\Highest_Paid_In_Demand_Skills.png)
+![Highest Paid and Most Demanded Skills in Data Analysts](images/Highest_Paid_In_Demand_Skills.png)
 
 #### Insights
 The "Niche" Premium (Top Chart):
@@ -116,7 +116,7 @@ sns.scatterplot(data=df_plot, x='skill_percent', y='median_salary', hue='technol
 ```
 
 #### Results
-![Most optimal skills for Data Analysts](images\optimal_skill.png)
+![Most optimal skills for Data Analysts](images/optimal_skill.png)
 
 #### Insights
 
