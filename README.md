@@ -18,11 +18,12 @@ This project was created out of a desire to navigate and understand the job mark
 
 * Git and GitHub: Version control and sharing my python code and analysis.
 
-[View the Full Project Here](Final_Project\README.md)
 
 ### 💡 Credits & Acknowledgements
 
 The data and tutorial followed for this project was provided by [Luke Barousse's Python For Data Analytics Course](https://www.youtube.com/watch?v=wUSDVGivd-8&t=39548s).
+
+[View the Full Project Here](Final_Project/README.md)
 
 ### 2\. Chocolate Sales Analysis
 ![Chocolate_sales](Chocolate_Sales/images/montly_trends.png)
